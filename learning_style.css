@@ -1,0 +1,82 @@
+h1{
+    background-color: cadetblue;
+    padding: 5px;
+    color: cornsilk;
+}
+
+.python{
+    padding: 1.25%;
+    margin: 1.25%;
+    width: 20%;
+    background-color:rgba(170, 165, 149, 0.144);
+    float: left;
+
+}
+.ardino{
+    padding: 1.25%;
+    margin: 1.25%;
+    width: 20%;
+    background-color:rgba(170, 165, 149, 0.144);
+   
+    float: left;
+
+}
+.embedded{
+    padding: 1.25%;
+    margin: 1.25%;
+    width: 20%;
+    background-color:rgba(170, 165, 149, 0.144);
+    float: left;
+
+}
+.web{
+    padding: 1.25%;
+    margin: 1.25%;
+    width: 20%;
+    background-color:rgba(170, 165, 149, 0.144);
+    float: left;
+
+
+}
+
+  @media only screen and (max-width: 768px) {
+    /* For desktop: */
+    .python{
+        padding: 2.5%;
+        margin: 2.5%;
+        width: 40%;
+    }
+    .ardino{
+        padding: 2.5%;
+        margin: 2.5%;
+        width: 40%;
+    }
+    .embedded{
+        padding: 2.5%;
+        margin: 2.5%;
+        width: 40%;
+    }
+    .web{
+        padding: 2.5%;
+        margin: 2.5%;
+        width: 40%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    /* For tablets: */
+   
+    .python{
+        width: 100%;
+    }
+    .ardino{
+        width:100%;
+
+
+    }
+    .embedded{
+        width: 100%;
+    }
+    .web{
+        width: 100%;
+    }
+  }
