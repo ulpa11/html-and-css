@@ -190,11 +190,11 @@ align-items: center;
 
 .section2_school_of{
    
-    font-family: Montserrat;
+font-family: Montserrat;
 font-weight: 500;
 font-size: 18px;
 color: #061A40;
-margin-top:-36px;
+margin-top:-24px;
 }
 .section2_prog{
     font-family: Montserrat;
@@ -259,7 +259,7 @@ margin-bottom: 12px;
 }
 
 .rectangle48{
-    position: relative;
+    position:relative;
     width: 300px;
     height: 380px;
     background: #BBE5ED;
@@ -328,4 +328,108 @@ margin-bottom: 12px;
 
   
 }
+/* section 4 */
+.section4{
+    position:relative;
+    height: 100vh;
+    left:100px;
+    width:100%;
+    top:36px;
+    
+}
+.section4_container{
+    position: relative;
+    display:grid;
+    grid-template-columns: 2fr 4fr;
+    justify-content: center;
+    align-items: center;
+
+}
+.placement_tranning{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.placement_tranning > img{
+    z-index:100;
+    margin-top: 24px;
+}
+
+
+.placement_box{
+    position: relative;
+    width:320px;
+    height:250px;
+    background-color: #BBE5ED;
+    box-shadow:2px 8px 10px rgba(6,26,64,0.5);
+    border-radius: 30px;
+    margin-top:-120px;
+    z-index:1;
+    
+}
+
+.placement_tranning_text{
+    position: relative;
+    top:120px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FB3640;
+    text-align: center;
+    
+    
+
+}
+.learnmore_box{
+    position: relative;
+    top: 124px;
+    width: 270px;
+    height: 60px;
+    background: linear-gradient(92.91deg, #0065FF -14.24%, #05286C 100%);
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    left: 24px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.learnmore_text{
+    text-decoration: none;
+    margin-top: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.rectangle52{
+    
+    width: 630px;
+    height: 400px;
+    background: #BBE5ED;
+    box-shadow: 2px 8px 10px rgba(6, 26, 64, 0.5);
+    border-radius: 30px;
+}
+
+
+
+
+
+/* section 5 */
+
+.section5{
+    position:relative;
+    height: 80vh;
+    left:100px;
+    width:100%;
+    top:36px;
+    background-color: #BBE5ED;
+    
+}
+
 
